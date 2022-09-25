@@ -13,6 +13,7 @@
   --primary-text-color: #757575;
   --title-color: #212121;
   --accent-color: #2196f3;
+  --accent-active-color: #188ce8;
   --white-color: #ffffff;
   --black-color: #000000;
   --contacts-color: rgba(255, 255, 255, 0.6);
@@ -64,14 +65,17 @@ body {
 .button {
   background-color: var(--accent-color);
   color: var(--white-color);
+  cursor: pointer;
+}
+
+.hero .button:hover,
+.hero .button:focus,
+.hero .button:active {
+  background-color: var(--accent-active-color);
 }
 
 .team {
   background-color: var(--bgn-grey-color);
-}
-
-.team .link {
-  color: var(--primary-text-color);
 }
 
 .title {
@@ -98,8 +102,4 @@ body {
 .filters .button:hover {
   background-color: var(--accent-color);
   color: var(--white-color);
-}
-
-.projects .link {
-  color: var(--primary-text-color);
 }
