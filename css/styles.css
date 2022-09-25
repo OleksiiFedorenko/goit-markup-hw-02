@@ -1,10 +1,11 @@
 /*
 + blue accents #2196F3
++ active accents #188ce8
 + black logo #000000
 + black headers #212121
 + black text / contacts in header #757575
 + white #FFFFFF
-+ contacts in footer rgba(255, 255, 255, 0.6);
++ contacts in footer rgba(255, 255, 255, 0.6)
 + background grey #F5F4FA
 + background footer #2F303A
 */
@@ -94,12 +95,19 @@ body {
   color: var(--contacts-color);
 }
 
+.contacts-ft:hover,
+.contacts-ft:focus {
+  color: var(--white-color);
+}
+
 .filters .button {
   background-color: var(--bgn-grey-color);
   color: var(--title-color);
 }
 
-.filters .button:hover {
+.filters .button:hover,
+.filters .button:focus,
+.filters .button:active {
   background-color: var(--accent-color);
   color: var(--white-color);
 }
