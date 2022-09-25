@@ -1,0 +1,105 @@
+/*
++ blue accents #2196F3
++ black logo #000000
++ black headers #212121
++ black text / contacts in header #757575
++ white #FFFFFF
++ contacts in footer rgba(255, 255, 255, 0.6);
++ background grey #F5F4FA
++ background footer #2F303A
+*/
+
+:root {
+  --primary-text-color: #757575;
+  --title-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --contacts-color: rgba(255, 255, 255, 0.6);
+  --bgn-grey-color: #f5f4fa;
+  --bgn-darkgrey-color: #2f303a;
+}
+
+body {
+  background-color: var(--bgn-white-color);
+  color: var(--primary-text-color);
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+.logo-hd {
+  color: var(--black-color);
+}
+
+.logo-ft {
+  color: var(--white-color);
+}
+
+.site-nav .link {
+  color: var(--title-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.site-nav .link.current,
+.contacts .contacts-hd:hover,
+.contacts .contacts-hd:focus {
+  color: var(--accent-color);
+}
+
+.contacts-hd {
+  color: var(--primary-text-color);
+}
+
+.hero {
+  background-color: var(--bgn-darkgrey-color);
+}
+
+.hero-title {
+  color: var(--white-color);
+}
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.team {
+  background-color: var(--bgn-grey-color);
+}
+
+.team .link {
+  color: var(--primary-text-color);
+}
+
+.title {
+  color: var(--title-color);
+}
+
+.footer {
+  background-color: var(--bgn-darkgrey-color);
+}
+
+.address {
+  color: var(--white-color);
+}
+
+.contacts-ft {
+  color: var(--contacts-color);
+}
+
+.filters .button {
+  background-color: var(--bgn-grey-color);
+  color: var(--title-color);
+}
+
+.filters .button:hover {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.projects .link {
+  color: var(--primary-text-color);
+}
