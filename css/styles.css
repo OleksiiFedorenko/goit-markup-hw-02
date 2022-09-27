@@ -23,36 +23,77 @@
 }
 
 body {
-  background-color: var(--bgn-white-color);
+  background-color: var(--white-color);
   color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
-.logo-accent {
+.list {
+  list-style: none;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo.accent {
   color: var(--accent-color);
 }
 
-.logo-hd {
+.logo.header {
   color: var(--black-color);
 }
 
-.logo-ft {
+.logo.footer {
   color: var(--white-color);
 }
 
 .site-nav .link {
   color: var(--title-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus,
 .site-nav .link.current,
-.contacts .contacts-hd:hover,
-.contacts .contacts-hd:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: var(--accent-color);
 }
 
-.contacts-hd {
+.contact.header {
   color: var(--primary-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.contact.footer {
+  color: var(--contacts-color);
+  font-style: normal;
+  text-decoration: none;
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
+}
+
+.address {
+  color: var(--white-color);
+  font-style: normal;
+  text-decoration: none;
 }
 
 .hero {
@@ -61,6 +102,53 @@ body {
 
 .hero-title {
   color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title {
+  color: var(--title-color);
+}
+
+.benefits .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.doings > .title,
+.team > .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.title.worker {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.text.worker {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team {
+  background-color: var(--bgn-grey-color);
+}
+
+.footer {
+  background-color: var(--bgn-darkgrey-color);
 }
 
 .button {
@@ -73,31 +161,6 @@ body {
 .hero .button:focus,
 .hero .button:active {
   background-color: var(--accent-active-color);
-}
-
-.team {
-  background-color: var(--bgn-grey-color);
-}
-
-.title {
-  color: var(--title-color);
-}
-
-.footer {
-  background-color: var(--bgn-darkgrey-color);
-}
-
-.address {
-  color: var(--white-color);
-}
-
-.contacts-ft {
-  color: var(--contacts-color);
-}
-
-.contacts-ft:hover,
-.contacts-ft:focus {
-  color: var(--white-color);
 }
 
 .filters .button {
