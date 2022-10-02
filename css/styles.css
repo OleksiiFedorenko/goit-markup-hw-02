@@ -20,7 +20,6 @@ body {
     'helvetica neue', 'helvetica', 'Cantarell', 'Ubuntu', 'noto', 'arial', sans-serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
@@ -88,6 +87,7 @@ body {
 
 .footer .contact {
   color: var(--contacts-color);
+  line-height: 1.71;
   font-style: normal;
   text-decoration: none;
 }
@@ -99,6 +99,7 @@ body {
 
 .address {
   color: var(--white-color);
+  line-height: 1.71;
   font-style: normal;
   text-decoration: none;
 }
@@ -140,6 +141,10 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+}
+
+.benefits .text {
+  line-height: 1.71;
 }
 
 .team .title {
